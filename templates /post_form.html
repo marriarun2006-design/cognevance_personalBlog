@@ -1,1 +1,7 @@
-
+{% extends "base.html" %}{% block title %}Post{% endblock %} {% block content %}
+{{ 'Edit Post' if post else 'New Post' }}
+{{post.title if post else ''}}
+ 
+{{post.content if post else ''}}
+Save Post
+{% endblock %}
