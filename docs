@@ -1,1 +1,39 @@
+# Project Report — Personal Blog Website
+
+## Objective
+Build a responsive blogging platform with a Python backend, database, authentication and CRUD operations.
+
+## Technology
+- Frontend: HTML5, CSS3
+- Client-side: JavaScript-ready structure
+- Backend: Python Flask
+- Database: SQLite via Flask-SQLAlchemy
+- Authentication: Flask sessions + Werkzeug password hashing
+
+## Workflow
+1. User registers.
+2. Password is hashed and stored.
+3. User logs in.
+4. Authenticated user creates a blog post.
+5. User can edit or delete their own posts.
+6. Public visitors can read published posts.
+7. Application can be deployed to a Python-compatible cloud host.
+
+## Testing
+- Register with valid credentials.
+- Attempt duplicate registration.
+- Login with valid/invalid credentials.
+- Create, edit and delete posts.
+- Verify another user cannot edit/delete someone else's post.
+- Check responsive layout.
+
+## Screenshot checklist
+Capture screenshots of: Home, Register, Login, Dashboard, New Post, Edit Post and Delete result after running the project.
+
+## Deployment
+Add the final live URL here after deployment:
+`TODO: add deployed application URL`
+
+## GitHub
+`TODO: add GitHub repository URL`
 
