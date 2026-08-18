@@ -1,1 +1,12 @@
+{% extends "base.html" %}{% block title %}Dashboard{% endblock %} {% block content %}
+Welcome, {{session.username}}
++ New Post {% for post in posts %}
+{{post.title}}
+{{post.content}}
 
+Edit
+Delete
+{% else %}
+You have no posts.
+
+{% endfor %}{% endblock %}
