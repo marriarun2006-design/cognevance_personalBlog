@@ -1,1 +1,4 @@
-
+My Blog {% if session.get('user_id') %} DashboardLogout {% else %} LoginRegister {% endif %}
+{% with messages = get_flashed_messages() %}{% for m in messages %}
+{{m}}
+{% endfor %}{% endwith %} {% block content %}{% endblock %}
